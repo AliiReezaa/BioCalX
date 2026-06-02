@@ -90,7 +90,13 @@
 
 ## Screenshots
 
-> _Screenshots coming soon. Install the APK to try the app._
+<div align="center">
+
+| Splash | Main Menu | Calculator | Result |
+|--------|-----------|------------|--------|
+| <img src="screenshots/01_splash.png" width="200"/> | <img src="screenshots/02_main_menu.png" width="200"/> | <img src="screenshots/03_single_mean.png" width="200"/> | <img src="screenshots/04_result.png" width="200"/> |
+
+</div>
 
 ---
 
