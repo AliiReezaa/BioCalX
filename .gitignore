@@ -1,0 +1,35 @@
+# Built output
+*.iml
+.gradle
+/local.properties
+/build
+/captures
+
+# Android Studio IDE files
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deviceManager.xml
+
+# Module build output
+app/build/
+app/release/
+
+# Native build
+.externalNativeBuild
+.cxx
+
+# macOS
+.DS_Store
+.qodo
+
+# Keystore files (never commit signing keys)
+*.jks
+*.keystore
+
+# Kotlin incremental compilation
+.kotlin/

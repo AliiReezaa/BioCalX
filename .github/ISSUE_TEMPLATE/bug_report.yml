@@ -1,0 +1,80 @@
+name: Bug Report
+description: Report a bug or incorrect calculation result
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug. Please fill in as much detail as possible.
+
+  - type: dropdown
+    id: calculator
+    attributes:
+      label: Which calculator is affected?
+      options:
+        - Single Mean
+        - Single Mean (Finite Population)
+        - Two Means (Equal groups)
+        - Two Means (Unequal groups)
+        - Two Means (Effect size)
+        - More Than Two Means
+        - Paired Means
+        - Single Proportion
+        - Single Proportion (Finite Population)
+        - Two Proportions (Equal groups)
+        - Two Proportions (Unequal groups)
+        - More Than Two Proportions
+        - Paired Proportions (McNemar)
+        - Correlation Coefficient
+        - Estimate Sensitivity
+        - Estimate Specificity
+        - Area Under ROC Curve
+        - Case–Control Study
+        - Cohort Study
+        - Survival Study
+        - General / UI / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: e.g. "The app crashes when I enter a value greater than 1 for alpha"
+    validations:
+      required: true
+
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Input values used
+      description: Provide the exact values you entered when the bug occurred.
+      placeholder: |
+        α = 0.05
+        σ = 2.5
+        d = 0.5
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What did you expect to happen?
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: What actually happened?
+
+  - type: input
+    id: device
+    attributes:
+      label: Device & Android version
+      placeholder: e.g. Samsung Galaxy S21, Android 13
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      placeholder: e.g. 1.0.1

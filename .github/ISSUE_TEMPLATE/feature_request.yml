@@ -1,0 +1,45 @@
+name: Feature Request
+description: Suggest a new calculator or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for a new statistical formula or an improvement to an existing one? We'd love to hear it.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of request
+      options:
+        - New calculator / formula
+        - Improvement to existing calculator
+        - UI / UX improvement
+        - Export / sharing feature
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your request
+      description: A clear and concise description of what you would like to see added or changed.
+      placeholder: e.g. "Add a sample size calculator for Bland-Altman limits of agreement"
+    validations:
+      required: true
+
+  - type: textarea
+    id: formula
+    attributes:
+      label: Formula or reference (if applicable)
+      description: If requesting a new calculator, please provide the formula or a reference.
+      placeholder: |
+        Formula: n = ...
+        Reference: Bland & Altman (1986), Statistical methods for assessing agreement...
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Why is this useful?
+      description: Describe the clinical or research scenario where this would be helpful.

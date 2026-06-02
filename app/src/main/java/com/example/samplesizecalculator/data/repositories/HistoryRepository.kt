@@ -1,0 +1,5 @@
+package com.example.samplesizecalculator.data.repositories
+
+import com.example.samplesizecalculator.domain.repositories.CalculationHistoryRepository
+
+typealias HistoryRepository = CalculationHistoryRepository
