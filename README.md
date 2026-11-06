@@ -239,3 +239,12 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 <div align="center">
 Made with ❤️ for medical researchers
 </div>
+
+---
+
+## Authors
+
+- **Ali Reza Soleymani Taloubaghi**: design, implementation and testing ([website](https://aliireezaa.github.io))
+- **Dr. Danial Habibi** (Babol University of Medical Sciences): statistical methodology and formula validation
+
+Developed with Babol University of Medical Sciences for clinical and epidemiological researchers.
